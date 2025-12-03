@@ -3,7 +3,43 @@ p{
 }
 .para{
     color: rgb(255, 94, 0);
+    font-size: auto;
+    font-weight: auto;
+     font-family: "Bebas Neue", sans-serif;
+    font-style: italic;
+    text-decoration: underline;
 }
-#para{
-    color: black;
+
+
+div{
+    height:auto;
+    width: 50%;
+    border-radius: 55px;
+    padding: 50px;
+    margin:5px 10px 15px 25px;
+   background-color: aqua;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+    
+   
+
+   
+}
+
+div:hover
+{
+    background-color: rgb(240, 217, 1);
+    box-shadow:15px 10px 15px 10px rgb(113, 4, 95);
+    background-image:url(https://wallpaperaccess.com/full/1186908.jpg);
+
+}
+.para-two{
+    margin:5px; 
+    padding:5px;
+}
+
+img{
+    filter: drop-shadow(15px 10px 15px rgb(113, 4, 95));
+
 }
